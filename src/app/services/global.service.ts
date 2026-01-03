@@ -5,7 +5,7 @@ import { environment } from '../../../src/environments/environment';
   providedIn: 'root',
 })
 export class GlobalService {
-  hostName: string = 'https://e-commerce-express-ten.vercel.app';
+  hostName: string = environment.apiUrl;
 
   authRoute: string = '/api/v1/auth';
   productsRoute: string = '/api/v1/products';
