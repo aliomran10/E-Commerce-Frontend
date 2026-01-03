@@ -1,4 +1,4 @@
 export const environment = {
-  production: true,
-  apiUrl: 'https://e-commerce-express-ten.vercel.app',
+  production: false,
+  apiUrl: 'http://localhost:3300',
 };
